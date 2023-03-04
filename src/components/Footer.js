@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Footer() {
+export default function Footer({counter}) {
   return (
     <ResultsFooter>
-      <Results data-test="footer">1/8 CONCLUÍDOS</Results>
+      <Results data-test="footer">{counter}/ CONCLUÍDOS</Results>
     </ResultsFooter>
   );
 }

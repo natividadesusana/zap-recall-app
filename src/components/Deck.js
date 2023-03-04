@@ -1,7 +1,7 @@
 import React from "react";
 import Flashcards from "./Flashcards";
 
-export default function Deck() {
+export default function Deck({counter, setCounter}) {
   const cards = [
     {
       question: "O que é JSX?",
@@ -46,6 +46,8 @@ export default function Deck() {
           i={i + 1}
           question={card.question}
           answer={card.answer}
+          counter={counter}
+          setCounter={setCounter}
         />
       ))}
     </>

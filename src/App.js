@@ -9,6 +9,7 @@ export default function App() {
   const [showHeader, setShowHeader] = useState(false);
   const [showDeck, setShowDeck] = useState(false);
   const [showFooter, setShowFooter] = useState(false);
+  const [counter, setCounter] = useState(0);
 
   const startZapRecall = () => {
     setCurrentScreen(false);
@@ -21,8 +22,8 @@ export default function App() {
     <>
       {currentScreen && <HomePage startZapRecall={startZapRecall} />}
       {showHeader && <Header />}
-      {showDeck && <Deck />}
-      {showFooter && <Footer/>}
+      {showDeck && <Deck counter={counter} setCounter={setCounter}/>}
+      {showFooter && <Footer counter={counter}/>}
     </>
   );
 }

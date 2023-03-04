@@ -6,7 +6,7 @@ import wrong from "../assets/img/wrong.png";
 import doubt from "../assets/img/doubt.png";
 import right from "../assets/img/right.png";
 
-export default function Flashcards({ i, question, answer }) {
+export default function Flashcards({ i, question, answer, counter, setCounter }) {
   
   const [showClosedCard, setShowClosedCard] = useState(true);
   const [showQuestion, setShowQuestion] = useState(false);
@@ -33,14 +33,17 @@ export default function Flashcards({ i, question, answer }) {
     if (color === "redAnswer") {
       setIconStart(wrong);
       setColor("#FF3030");
+      setCounter(counter + 1);
       setDataTest("no-icon");
     } else if (color === "orangeAnswer") {
       setIconStart(doubt);
       setColor("#FF922E");
+      setCounter(counter + 1);
       setDataTest("partial-icon");
     } else if (color === "greenAnswer") {
       setIconStart(right);
       setColor("#2FBE34");
+      setCounter(counter + 1);
       setDataTest("zap-icon");
     }
   }

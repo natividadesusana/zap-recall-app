@@ -141,7 +141,6 @@ table {
   width: 100%;
   box-sizing: border-box;
   background-color: #fb6b6b;
-  border: 1px solid #dbdbdb;
 }
 `
 

@@ -4,7 +4,7 @@ import styled from "styled-components";
 export default function Footer() {
   return (
     <ResultsFooter>
-      <Results>1/4 CONCLUÍDOS</Results>
+      <Results data-test="footer">1/8 CONCLUÍDOS</Results>
     </ResultsFooter>
   );
 }
@@ -15,7 +15,7 @@ const ResultsFooter = styled.div`
   box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
   position: fixed;
   bottom: 0;
-  right: auto;
+  top: auto;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -7,7 +7,7 @@ export default function HomePage({ startZapRecall }) {
     <Container>
       <Image src={image1} alt={image1} />
       <Title>ZapRecall</Title>
-      <Button onClick={() => startZapRecall()}>Iniciar Recall!</Button>
+      <Button data-test="start-btn" onClick={() => startZapRecall()}>Iniciar Recall!</Button>
     </Container>
   );
 }

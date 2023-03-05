@@ -13,9 +13,10 @@ const ResultsFooter = styled.div`
   background-color: #ffffff;
   height: 70px;
   box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
-  position: fixed;
+  /* position: fixed;
   bottom: 0;
-  top: auto;
+  top: auto; */
+  margin-top: 50px;
   display: flex;
   flex-direction: column;
   justify-content: center;

@@ -7,7 +7,6 @@ import doubt from "../assets/img/doubt.png";
 import right from "../assets/img/right.png";
 
 export default function Flashcards({ i, question, answer, counter, setCounter }) {
-  
   const [showClosedCard, setShowClosedCard] = useState(true);
   const [showQuestion, setShowQuestion] = useState(false);
   const [showAnswer, setShowAnswer] = useState(false);
@@ -49,7 +48,7 @@ export default function Flashcards({ i, question, answer, counter, setCounter })
   }
 
   return (
-    <>
+    <Container>
       {showClosedCard && (
         <ClosedCardBox data-test="flashcard">
           <h2 data-test="flashcard-text">PERGUNTA {i}</h2>
@@ -106,16 +105,17 @@ export default function Flashcards({ i, question, answer, counter, setCounter })
       {showFinished && (
         <FinishedAnswer data-test="flashcard" color={color}>
           <h2 data-test="flashcard-text">PERGUNTA {i}</h2>
-          <img 
-            data-test={dataTest}
-            src={iconStart}
-            alt={iconStart}
-          />
+          <img data-test={dataTest} src={iconStart} alt={iconStart} />
         </FinishedAnswer>
       )}
-    </>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  /* margin-top: 170px;
+  margin-bottom: 120px; */
+`;
 
 const ClosedCardBox = styled.div`
   width: 70%;
@@ -160,6 +160,20 @@ const OpenQuestionBox = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
+  @keyframes flipCard {
+    from {
+      transform: rotateX(0deg);
+      opacity: 0;
+    }
+    50% {
+      transform: rotateY(-90deg);
+      opacity: 0.5;
+    }
+    to {
+      transform: rotateY(0deg);
+      opacity: 1;
+    }
+  }
   h2 {
     background: #ffffd5;
     font-family: "Recursive";
@@ -193,6 +207,10 @@ const OpenAnswer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  backface-visibility: hidden;
+  animation-name: flipCard;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
   h2 {
     background: #ffffd5;
     font-family: "Recursive";
@@ -224,6 +242,7 @@ const Button = styled.button`
   border-radius: 5px;
   padding: 10px;
   background: ${(props) => props.color};
+  border: 1px ${(props) => props.cor};
   display: flex;
   justify-content: center;
   align-items: center;

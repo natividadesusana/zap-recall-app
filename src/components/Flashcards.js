@@ -277,4 +277,5 @@ const FinishedAnswer = styled.div`
     margin-right: 10px;
     width: 20px;
   }
+  
 `;

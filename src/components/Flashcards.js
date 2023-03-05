@@ -160,7 +160,7 @@ const OpenQuestionBox = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: flex-start;
-  @keyframes flipCard {
+  /* @keyframes flipCard {
     from {
       transform: rotateX(0deg);
       opacity: 0;
@@ -173,7 +173,7 @@ const OpenQuestionBox = styled.div`
       transform: rotateY(0deg);
       opacity: 1;
     }
-  }
+  } */
   h2 {
     background: #ffffd5;
     font-family: "Recursive";
@@ -207,10 +207,10 @@ const OpenAnswer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  backface-visibility: hidden;
+  /* backface-visibility: hidden;
   animation-name: flipCard;
   animation-duration: 1s;
-  animation-fill-mode: forwards;
+  animation-fill-mode: forwards; */
   h2 {
     background: #ffffd5;
     font-family: "Recursive";

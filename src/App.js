@@ -23,7 +23,7 @@ export default function App() {
       {currentScreen && <HomePage startZapRecall={startZapRecall} />}
       {showHeader && <Header />}
       {showDeck && <Deck counter={counter} setCounter={setCounter}/>}
-      {showFooter && <Footer counter={counter}/>}
+      {showFooter && <Footer counter={counter} />}
     </>
   );
 }

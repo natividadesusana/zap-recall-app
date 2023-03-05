@@ -105,7 +105,7 @@ export default function Flashcards({ i, question, answer, counter, setCounter })
 
       {showFinished && (
         <FinishedAnswer data-test="flashcard" color={color}>
-          <h2 data-test="flashcard-text">Pergunta {i}</h2>
+          <h2 data-test="flashcard-text">PERGUNTA {i}</h2>
           <img 
             data-test={dataTest}
             src={iconStart}
@@ -213,7 +213,7 @@ const DivButtons = styled.div`
   cursor: pointer;
 `;
 
-const Button = styled.div`
+const Button = styled.button`
   width: 31%;
   height: 37px;
   font-family: "Recursive";

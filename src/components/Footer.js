@@ -1,10 +1,10 @@
 import React from "react";
 import styled from "styled-components";
 
-export default function Footer({counter}) {
+export default function Footer({ counter }) {
   return (
     <ResultsFooter>
-      <Results data-test="footer">{counter}/ CONCLUÍDOS</Results>
+      <Results data-test="footer">{counter}/8 CONCLUÍDOS</Results>
     </ResultsFooter>
   );
 }
@@ -22,7 +22,7 @@ const ResultsFooter = styled.div`
   align-items: center;
 `;
 
-const Results = styled.p`
+const Results = styled.h2`
   font-family: 'Recursive', sans-serif;
   font-weight: 400;
   font-size: 18px;

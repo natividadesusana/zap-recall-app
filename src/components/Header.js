@@ -19,7 +19,6 @@ const CardHeader = styled.div`
   z-index: 2;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
   border-top: 1px solid #dbdbdb;
-  border-right: 1px solid #dbdbdb;
   display: flex;
   justify-content: center;
   align-items: center;

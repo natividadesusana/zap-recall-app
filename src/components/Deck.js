@@ -56,6 +56,6 @@ export default function Deck({counter, setCounter}) {
 }
 
 const Container = styled.div`
-  margin-top: 170px;
-  margin-bottom: 120px;
+  padding-top: 150px;
+  padding-bottom: 75px;
 `;

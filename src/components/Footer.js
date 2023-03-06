@@ -1,7 +1,9 @@
 import React from "react";
 import styled from "styled-components";
 
+
 export default function Footer({ counter }) {
+
   return (
     <ResultsFooter>
       <Results data-test="footer">{counter}/8 CONCLUÍDOS</Results>
@@ -13,10 +15,10 @@ const ResultsFooter = styled.div`
   background-color: #ffffff;
   height: 70px;
   box-shadow: 0px -4px 6px rgba(0, 0, 0, 0.05);
-  /* position: fixed;
+  position: fixed;
   bottom: 0;
-  top: auto; */
-  margin-top: 50px;
+  top: auto;
+  /* margin-top: 50px; */
   display: flex;
   flex-direction: column;
   justify-content: center;

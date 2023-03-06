@@ -113,8 +113,8 @@ export default function Flashcards({ i, question, answer, counter, setCounter })
 }
 
 const Container = styled.div`
-  /* margin-top: 170px;
-  margin-bottom: 120px; */
+  margin-top: 170px;
+  margin-bottom: 120px;
 `;
 
 const ClosedCardBox = styled.div`

@@ -13,11 +13,11 @@ export default function Header() {
 
 const CardHeader = styled.div`
   padding: 30px;
-  /* position: fixed;
+  position: fixed;
   top: 0;
   bottom: auto;
-  z-index: 2; */
-  margin-bottom: 50px;
+  z-index: 2;
+  /* margin-bottom: 50px; */
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.15);
   display: flex;
   justify-content: center;

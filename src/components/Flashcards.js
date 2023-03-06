@@ -48,7 +48,7 @@ export default function Flashcards({ i, question, answer, counter, setCounter })
   }
 
   return (
-    <Container>
+    <>
       {showClosedCard && (
         <ClosedCardBox data-test="flashcard">
           <h2 data-test="flashcard-text">PERGUNTA {i}</h2>
@@ -108,14 +108,9 @@ export default function Flashcards({ i, question, answer, counter, setCounter })
           <img data-test={dataTest} src={iconStart} alt={iconStart} />
         </FinishedAnswer>
       )}
-    </Container>
+    </>
   );
 }
-
-const Container = styled.div`
-  margin-top: 170px;
-  margin-bottom: 120px;
-`;
 
 const ClosedCardBox = styled.div`
   width: 70%;

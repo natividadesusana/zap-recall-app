@@ -1,5 +1,6 @@
 import React from "react";
 import Flashcards from "./Flashcards";
+import styled from "styled-components";
 
 export default function Deck({counter, setCounter}) {
   const cards = [
@@ -39,7 +40,7 @@ export default function Deck({counter, setCounter}) {
   ];
 
   return (
-    <>
+    <Container>
       {cards.map((card, i) => (
         <Flashcards 
           key={i}
@@ -50,6 +51,11 @@ export default function Deck({counter, setCounter}) {
           setCounter={setCounter}
         />
       ))}
-    </>
+    </Container>
   );
 }
+
+const Container = styled.div`
+  margin-top: 170px;
+  margin-bottom: 120px;
+`;

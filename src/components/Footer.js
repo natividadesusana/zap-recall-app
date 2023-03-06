@@ -18,7 +18,6 @@ const ResultsFooter = styled.div`
   position: fixed;
   bottom: 0;
   top: auto;
-  /* margin-top: 50px; */
   display: flex;
   flex-direction: column;
   justify-content: center;

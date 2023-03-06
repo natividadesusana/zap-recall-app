@@ -13,8 +13,7 @@ export default function HomePage({ startZapRecall }) {
 }
 
 const Container = styled.div`
-  min-height: 100vh;
-  border: 1px solid #dbdbdb;
+  min-height: 99.7vh;
   display: flex;
   flex-direction: column;
   justify-content: center;

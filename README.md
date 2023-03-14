@@ -1,5 +1,14 @@
 ## Project Zap Recall
 
+## 📝 Description
+
+- Development of a *flashcards* app called **Zap Recall**!
+- *Flashcards* are cards that contain a question/statement on the front and an answer on the back. You can use them to train your memory with the *Active Recall* and *Spaced Repetition* methodologies. The idea is to read the question or statement and try to remember the answer. When faced with it, depending on the effort required to respond or not to the *flashcard*, you become aware of which contents are fresh in your memory and which are not, so you can frequently practice the contents that are not.
+- When we instantly remembered a *flashcard*, we had a **"Zap!"**⚡
+- Sets of *flashcards* are called *decks.* By default this app should have at least one *deck* with 8 *flashcards*.
+
+______
+
 <img width="1440" alt="Captura de Tela 2023-03-06 às 15 43 29" src="https://user-images.githubusercontent.com/95102911/223201905-e4f44d40-9924-49c6-a51f-64c69f4c4768.png">
 
 <img width="1440" alt="Captura de Tela 2023-03-06 às 15 44 54" src="https://user-images.githubusercontent.com/95102911/223202203-593efdaf-322e-42bd-9a22-9221efbe2b40.png">

@@ -242,6 +242,7 @@ const Button = styled.button`
   justify-content: center;
   align-items: center;
   text-align: center;
+  cursor: pointer;
 `;
 
 const FinishedAnswer = styled.div`

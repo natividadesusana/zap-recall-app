@@ -1,4 +1,4 @@
-# Project Flashcards
+# Project Zap Recall
 
 <img width="1440" alt="Captura de Tela 2023-03-06 às 15 43 29" src="https://user-images.githubusercontent.com/95102911/223201905-e4f44d40-9924-49c6-a51f-64c69f4c4768.png">
 

@@ -6,6 +6,8 @@
 
 #### Demo: https://projeto9-zaprecall-phi-silk.vercel.app/
 
+<hr/>
+
 ## ℹ️ About
 This project was created with the aim of helping users memorize information more efficiently. The application consists of a set of flashcards that can be used to learn anything from programming concepts to words in a new language. The main features of the project include:
 
@@ -17,13 +19,24 @@ This project was created with the aim of helping users memorize information more
 - Buttons to indicate the recall level of the answer given by the user
 - Visual indication of flashcard status
 
+<hr>
+
 ## 🛠️ Technologies
 
-- React
-- Styled Components
-- Vercel
+<div> 
+ <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" height="40" width="52" alt="react logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" height="40" width="52" alt="js logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" height="40" width="52" alt="html5 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" height="40" width="52" alt="css3 logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" height="40" width="52" alt="figma logo"   />        
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" height="40" width="52" alt="git logo"  />
+  <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" height="40" width="52" alt="github logo" /> 
+<div>
+<br>
 
 React was chosen because it is a popular JavaScript library for building user interfaces, Styled Components for styling, and Vercel for hosting and deployment.
+ 
+<hr/>
 
 ## 🚀 How to Run
 1. Clone the repository locally on your machine.
@@ -31,11 +44,15 @@ React was chosen because it is a popular JavaScript library for building user in
 3. Run npm start to start the application in development mode.
 4. Access the application in your browser at http://localhost:3000.
 
+<hr/>
+
 ## Next steps
 - Implementation of a scoring system and user progress recording
 - Added support for multiple languages, allowing users to create flashcards in different languages
 - Accessibility improvements, making the application easier to use for users with visual or motor impairments.
 
+<hr/>
+  
 ## How to Contribute
 Contributions are always welcome! If you find any bugs or have suggestions for new features, feel free to open an issue or pull request.
 
